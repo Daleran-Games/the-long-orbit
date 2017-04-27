@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: UIIcons
+  m_EditorClassIdentifier: 
+  hashCode: 240995716
+  material: {fileID: 21071441755775044}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_0
+    hashCode: 451332491
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300000, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 1
+    x: 16
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_1
+    hashCode: 451332490
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300002, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 2
+    x: 32
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_2
+    hashCode: 451332489
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300004, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 3
+    x: 48
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_3
+    hashCode: 451332488
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300006, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 4
+    x: 64
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_4
+    hashCode: 451332495
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300008, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 5
+    x: 80
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_5
+    hashCode: 451332494
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300010, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 6
+    x: 96
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_6
+    hashCode: 451332493
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300012, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 7
+    x: 112
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_7
+    hashCode: 451332492
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300014, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 8
+    x: 0
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_8
+    hashCode: 451332483
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300016, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 9
+    x: 16
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_9
+    hashCode: 451332482
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300018, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 10
+    x: 32
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_10
+    hashCode: 2009070330
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300020, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 11
+    x: 48
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_11
+    hashCode: 2009070331
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300022, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 12
+    x: 64
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_12
+    hashCode: 2009070328
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300024, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 13
+    x: 80
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_13
+    hashCode: 2009070329
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300026, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 14
+    x: 96
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_14
+    hashCode: 2009070334
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300028, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 15
+    x: 112
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_15
+    hashCode: 2009070335
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300030, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 16
+    x: 0
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_16
+    hashCode: 2009070332
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300032, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 17
+    x: 16
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_17
+    hashCode: 2009070333
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300034, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 18
+    x: 32
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_18
+    hashCode: 2009070322
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300036, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 19
+    x: 48
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_19
+    hashCode: 2009070323
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300038, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 20
+    x: 64
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_20
+    hashCode: 2009070233
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300040, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 21
+    x: 80
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_21
+    hashCode: 2009070232
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300042, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 22
+    x: 96
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_22
+    hashCode: 2009070235
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300044, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 23
+    x: 0
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_23
+    hashCode: 2009070234
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300046, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 24
+    x: 16
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_24
+    hashCode: 2009070237
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300048, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 25
+    x: 32
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_25
+    hashCode: 2009070236
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300050, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 26
+    x: 48
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_26
+    hashCode: 2009070239
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300052, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 27
+    x: 0
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_27
+    hashCode: 2009070238
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300054, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 28
+    x: 16
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_28
+    hashCode: 2009070225
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300056, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 29
+    x: 32
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_29
+    hashCode: 2009070224
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300058, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 30
+    x: 48
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_30
+    hashCode: 2009070264
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300060, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 31
+    x: 64
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_31
+    hashCode: 2009070265
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300062, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 32
+    x: 80
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_32
+    hashCode: 2009070266
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300064, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 33
+    x: 0
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_33
+    hashCode: 2009070267
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300066, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 34
+    x: 16
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_34
+    hashCode: 2009070268
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300068, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 35
+    x: 32
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_35
+    hashCode: 2009070269
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300070, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 36
+    x: 48
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_36
+    hashCode: 2009070270
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300072, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 37
+    x: 0
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_37
+    hashCode: 2009070271
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300074, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 38
+    x: 16
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_38
+    hashCode: 2009070256
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300076, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 39
+    x: 32
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_39
+    hashCode: 2009070257
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300078, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 40
+    x: 48
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_40
+    hashCode: 2009070431
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300080, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 41
+    x: 0
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_41
+    hashCode: 2009070430
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300082, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 42
+    x: 16
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_42
+    hashCode: 2009070429
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300084, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 43
+    x: 32
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_43
+    hashCode: 2009070428
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300086, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 44
+    x: 48
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_44
+    hashCode: 2009070427
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300088, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 45
+    x: 0
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_45
+    hashCode: 2009070426
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300090, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 46
+    x: 16
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_46
+    hashCode: 2009070425
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300092, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 47
+    x: 32
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_47
+    hashCode: 2009070424
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300094, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 48
+    x: 48
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_48
+    hashCode: 2009070423
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300096, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 49
+    x: 0
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_49
+    hashCode: 2009070422
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300098, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 50
+    x: 16
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_50
+    hashCode: 2009070462
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300100, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 51
+    x: 32
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_51
+    hashCode: 2009070463
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300102, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 52
+    x: 48
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_52
+    hashCode: 2009070460
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300104, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 53
+    x: 64
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_53
+    hashCode: 2009070461
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300106, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 54
+    x: 80
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_54
+    hashCode: 2009070458
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300108, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  - id: 55
+    x: 0
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: UIIcons_55
+    hashCode: 2009070459
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 21300110, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21071441755775044
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: 3a1c68c8292caf046bd21158886c5e40, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 96095e396dda91a47b496f6f22b6dea2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
