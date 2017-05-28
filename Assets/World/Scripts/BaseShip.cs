@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DaleranGames.RPGFramework;
 
 
 namespace DaleranGames.TheLongOrbit
@@ -13,6 +14,7 @@ namespace DaleranGames.TheLongOrbit
          * Add Actions for other scripts to hook into
          * Develop derived stat calculations
          */
+
 
         [Header("Descriptors")]
         [SerializeField]
@@ -31,65 +33,10 @@ namespace DaleranGames.TheLongOrbit
         }
 
         [Header("Base Attributes")]
-        [SerializeField]
-        int accuracy = 3;
-        public Action<int> AccuracyChanged;
-        public int Accuracy
-        {
-            get { return accuracy; }
-            set
-            {
-                if (value < 0)
-                    accuracy = 0;
-                else
-                    accuracy = value;
+        public Stat Accuracy = new Stat(StatType.accuracy, 0);
+        public Stat Speed = new Stat(StatType.speed, 0);
+        public ModifiableStat Maneuverability = new ModifiableStat(StatType.maneuverability, 0);
 
-                if (AccuracyChanged != null)
-                    AccuracyChanged(accuracy);
-
-                CalculateDerivedStats();
-            }
-        }
-
-        [SerializeField]
-        int speed = 4;
-        public Action<int> SpeedChanged;
-        public int Speed
-        {
-            get { return speed; }
-            set
-            {
-                if (value < 0)
-                    speed = 0;
-                else
-                    speed = value;
-
-                if (SpeedChanged !=null)
-                    SpeedChanged(speed);
-
-                CalculateDerivedStats();
-            }
-        }
-
-        [SerializeField]
-        int maneuverability = 3;
-        public Action<int> ManeuverabilityChanged;
-        public int Maneuverability
-        {
-            get { return maneuverability; }
-            set
-            {
-                if (value < 0)
-                    maneuverability = 0;
-                else
-                    maneuverability = value;
-
-                if (ManeuverabilityChanged !=null)
-                    ManeuverabilityChanged(maneuverability);
-
-                CalculateDerivedStats();
-            }
-        }
 
         [SerializeField]
         int hitPoints = 8;
@@ -227,12 +174,19 @@ namespace DaleranGames.TheLongOrbit
             CalculateDerivedStats();
         }
 
+        private void OnDestroy()
+        {
+
+        }
+
         [ContextMenu("Calculate Derived Stats")]
         void CalculateDerivedStats()
         {
+            /*
             EvadeChance = Mathf.Exp(-4f * Mathf.Exp(0.1f * (-Maneuverability - (Speed * 0.25f))));
             HitChance = 1f / (1 + Mathf.Exp(- Accuracy * 0.1f));
             MoveChance = 1f / (1 + Mathf.Exp(-Speed * 0.1f));
+            */
 
         }
 

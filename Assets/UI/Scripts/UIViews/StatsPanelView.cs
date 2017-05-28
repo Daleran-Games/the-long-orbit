@@ -29,14 +29,15 @@ namespace DaleranGames.UI
         private void Start()
         {
             EnableImage(false);
-
+            
             shipName = UITextBox.CreateTextBox(transform, playerShip.ShipName, false);
             hp = UIStatBar.CreateStatBar(transform, "HP", playerShip.HitPoints, playerShip.MaxHitPoints, UIManager.Instance.CurrentUIStyle.StatIncreaseColor);
             damage = UITextBox.CreateTextBox(transform, "DMG: " + playerShip.MinDamage + "-" + playerShip.MaxDamage, false);
             accuracy = UITextBox.CreateTextBox(transform, "ACC: " + playerShip.Accuracy, false);
             speed = UITextBox.CreateTextBox(transform, "SPD: " + playerShip.Speed, false);
             maneuverability = UITextBox.CreateTextBox(transform, "MNV: " + playerShip.Maneuverability, false);
-
+            
+            /*
             playerShip.ShipNameChanged += OnNameChange;
             playerShip.HitPointsChanged += OnHPChange;
             playerShip.MaxHitPointsChanged += OnHPChange;
@@ -45,11 +46,13 @@ namespace DaleranGames.UI
             playerShip.AccuracyChanged += OnAccuracyChange;
             playerShip.SpeedChanged += OnSpeedChange;
             playerShip.ManeuverabilityChanged += OnManeuverabilityChange;
+            */
 
         }
 
         private void OnDestroy()
         {
+            /*
             playerShip.ShipNameChanged -= OnNameChange;
             playerShip.HitPointsChanged -= OnHPChange;
             playerShip.MaxHitPointsChanged -= OnHPChange;
@@ -58,6 +61,7 @@ namespace DaleranGames.UI
             playerShip.AccuracyChanged -= OnAccuracyChange;
             playerShip.SpeedChanged -= OnSpeedChange;
             playerShip.ManeuverabilityChanged -= OnManeuverabilityChange;
+            */
         }
 
         public void OnNameChange(string newName)

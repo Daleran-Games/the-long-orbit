@@ -810,9 +810,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shipName: Endeavor
-  accuracy: 4
-  speed: 3
-  maneuverability: 6
+  Accuracy:
+    type: 0
+    baseValue: 0
+  Speed:
+    type: 0
+    baseValue: 0
+  Maneuverability:
+    type: 0
+    baseValue: 0
+    finalValue: 0
   hitPoints: 8
   maxHitPoints: 8
   minDamage: 2
@@ -894,9 +901,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shipName: Thrasher
-  accuracy: 11
-  speed: 5
-  maneuverability: 2
+  Accuracy:
+    type: 0
+    baseValue: 0
+  Speed:
+    type: 0
+    baseValue: 0
+  Maneuverability:
+    type: 0
+    baseValue: 0
+    finalValue: 0
   hitPoints: 6
   maxHitPoints: 6
   minDamage: 1
@@ -1029,7 +1043,7 @@ Prefab:
     - target: {fileID: 224177395536852832, guid: 6055a0b0a3fe7d044a614e6bfaa476e9,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224177395536852832, guid: 6055a0b0a3fe7d044a614e6bfaa476e9,
         type: 2}
@@ -1134,7 +1148,7 @@ Prefab:
     - target: {fileID: 224740780446912790, guid: 8e5549ed3c11af6409cb6cd5e7ed53fc,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224740780446912790, guid: 8e5549ed3c11af6409cb6cd5e7ed53fc,
         type: 2}
